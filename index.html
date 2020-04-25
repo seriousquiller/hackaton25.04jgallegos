@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/reset.css">
+</head>
+<body>
+
+<!------------------------/ Titulo /------------------------>
+
+    <span>Hackaton de John Gallegos Arias</span>
+
+<!--/ Cabecera /-->
+    
+    <header>
+            <h1 class="header2">PachaQtec</h1>
+            <h2 class="header3">Hackaton #4</h2>
+    </header>
+
+<!-----------------------------/ Sobre Mi /--------------------->
+
+    <section class="aboutme">
+        <h2 class="info">Sobre Mí</h2>
+        <p class="infocompleta">
+            <ul class="infocompleta">
+                <li>¿Para qué sirve CSS?</li>
+                Sirve para definir el estilo y el aspecto  de un documento HTML, a través, de las reglas CSS.
+                <li>¿Cuáles son los contras de no usar CSS?</li>
+                Que nuestra página puede ser visualizada en los navegadores de distintas forma a la diseñada, ya que tomaría los estilos predeterminados del navegador.
+                <li>¿Cuáles son los beneficios?</li>
+                Generar una web que se presente en distintos nevagadores y plataformas sin afectar su diseño principal -WEB RESPONSIVE-, trabajar con estándares y realziar una web que no sea muy pesada.
+            </ul>
+        </p>
+        <a class="botoncv" href="*">Ver CV</a>
+    </section>
+
+<!------------------/ Skills /----------------------->
+
+    <section class="skills">
+
+        <h2 class="skillstitle">Mis Skills</h2>
+
+        <div class="skillscolumna1">
+            <h3 class="skillhabilidades">HTML</h3>
+            <div class="skillcontenedor">
+                <div class="skillbarra"></div>
+            </div>
+
+            <h3 class="skillhabilidades">JavaScript</h3>
+            <div class="skillcontenedor">
+                <div class="skillbarra"></div>
+            </div>
+
+            <h3 class="skillhabilidades">Flexbox</h3>
+            <div class="skillcontenedor">
+                <div class="skillbarra"></div>
+            </div>
+        </div>
+
+        <div class="skillscolumna2">
+            <h3 class="skillhabilidades">CSS</h3>
+            <div class="skillcontenedor">
+                <div class="skillbarra"></div>
+            </div>
+
+            <h3 class="skillhabilidades">VUE</h3>
+            <div class="skillcontenedor">
+                <div class="skillbarra"></div>
+            </div>
+
+            <h3 class="skillhabilidades">CSS Grid</h3>
+            <div class="skillcontenedor">
+                <div class="skillbarra"></div>
+            </div>
+        </div>
+        
+    </section>
+
+<!-------------------/ Portafolio /-------------------->
+
+<section class="portafolio">
+
+    <h2 class="portafoliotitle">Portafolio</h2>
+
+<div class="portafoliodesigns">
+    <img class="portafolioexamples" src="/images/image-4.png" alt="">
+    <img class="portafolioexamples" src="/images/image-5.png" alt="">
+    <img class="portafolioexamples" src="/images/image-6.png" alt="">
+    <img class="portafolioexamples" src="/images/image-7.png" alt="">
+    <img class="portafolioexamples" src="/images/image-8.png" alt="">
+    <img class="portafolioexamples" src="/images/image-9.png" alt="">
+    <img class="portafolioexamples" src="/images/image-10.png" alt="">
+    <img class="portafolioexamples" src="/images/image-11.png" alt="">
+</div>
+
+</section>
+
+<!-------------------/ Clientes /-------------------->
+
+<section class="clientes">
+
+    <h2 class="clientestitle">Clientes</h2>
+
+    <div class="clientesdesigns">
+        <img class="clientesexamples" src="/images/image-1.png" alt="">
+        <img class="clientesexamples" src="/images/image-2.png" alt="">
+        <img class="clientesexamples" src="/images/image-3.png" alt="">
+        <img class="clientesexamples" src="/images/image-1.png" alt="">
+    </div>
+
+</section>
+
+<!-------------------/ Contacto /-------------------->
+
+<section class="contacto">
+
+    <form name="formulario" action="#" method="GET">
+
+        <h2 class="contactostitle">Contactos</h2>
+
+        <div class="formulariocontenedor">    
+                            
+            <input class="contactocelda" name="nombre" type="text" placeholder="Ingresa Nombre" required pattern="[A-Za-z]+" >
+           
+            <input class="contactocelda" name="apellido" type="text" placeholder="Ingrese Apellido" required pattern="[A-Za-z]+">
+             
+            <input class="contactocelda" name="correo" type="email" placeholder="Ingrese su correo" required>
+          
+            <input class="contactocelda" name="age" type="text" placeholder="Teléfono" pattern="[0-9]{9}" required>
+                             
+            <textarea class="descripcioncelda" name="descripcion" type="text" placeholder="Descipción" pattern="[A-Za-z0-9]+" required> </textarea>
+                     
+            <div>
+
+        <button type="submit">Enviar</button>
+            </div>
+                        
+        </form>
+
+</section>
+
+</body>
+
+
+</html>
